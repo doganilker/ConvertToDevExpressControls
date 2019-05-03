@@ -46,12 +46,12 @@
             this.txtDesignerFilePath.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDesignerFilePath.Multiline = true;
             this.txtDesignerFilePath.Name = "txtDesignerFilePath";
-            this.txtDesignerFilePath.Size = new System.Drawing.Size(573, 22);
+            this.txtDesignerFilePath.Size = new System.Drawing.Size(233, 22);
             this.txtDesignerFilePath.TabIndex = 1;
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(582, 34);
+            this.btnBrowse.Location = new System.Drawing.Point(242, 34);
             this.btnBrowse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(39, 22);
@@ -80,14 +80,14 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(624, 381);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(284, 261);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // btnConvert
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.btnConvert, 2);
             this.btnConvert.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnConvert.Location = new System.Drawing.Point(532, 64);
+            this.btnConvert.Location = new System.Drawing.Point(192, 64);
             this.btnConvert.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(89, 22);
@@ -105,7 +105,7 @@
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
             this.txtLog.ReadOnly = true;
-            this.txtLog.Size = new System.Drawing.Size(618, 285);
+            this.txtLog.Size = new System.Drawing.Size(278, 165);
             this.txtLog.TabIndex = 4;
             // 
             // lblDesignerFilePath
@@ -115,7 +115,7 @@
             this.lblDesignerFilePath.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDesignerFilePath.Location = new System.Drawing.Point(3, 0);
             this.lblDesignerFilePath.Name = "lblDesignerFilePath";
-            this.lblDesignerFilePath.Size = new System.Drawing.Size(618, 30);
+            this.lblDesignerFilePath.Size = new System.Drawing.Size(278, 30);
             this.lblDesignerFilePath.TabIndex = 0;
             this.lblDesignerFilePath.Text = "C# designer file:";
             this.lblDesignerFilePath.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,6 +128,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "FrmMainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Convert to DevExpress Controls";
